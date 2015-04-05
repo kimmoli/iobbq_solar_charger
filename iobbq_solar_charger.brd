@@ -804,7 +804,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.3962" y="42.5184" size="1.2" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="25.3472" y="34.412" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="C2" library="OMAT_IC" package="C0805" value="CAP0805" x="21" y="21" smashed="yes" rot="R270">
+<element name="C2" library="OMAT_IC" package="C0805" value="4µ7" x="21" y="21" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.27" y="22.27" size="1.2" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="18.46" y="22.27" size="0.8128" layer="27" rot="R270"/>
 </element>
@@ -822,23 +822,23 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.5962" y="12.5184" size="1.2" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="21.6528" y="13.588" size="2.0828" layer="27" ratio="10" rot="SR270"/>
 </element>
-<element name="C4" library="OMAT_IC" package="C0805" value="CAP0805" x="35.8" y="18.6" smashed="yes">
+<element name="C4" library="OMAT_IC" package="C0805" value="2µ2 50V" x="35.8" y="18.6" smashed="yes">
 <attribute name="NAME" x="34.73" y="16.27" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="34.53" y="16.06" size="0.8128" layer="27"/>
 </element>
-<element name="V4" library="diode" package="TO236" value="BZX84CSMD" x="27.4" y="35.4" smashed="yes">
+<element name="V4" library="diode" package="TO236" value="BZX84C 6V2" x="27.4" y="35.4" smashed="yes">
 <attribute name="NAME" x="26.003" y="37.194" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="25.876" y="32.336" size="1.27" layer="27"/>
 </element>
-<element name="V5" library="diode" package="SMC" value="" x="34" y="38.4" smashed="yes" rot="R90">
+<element name="V5" library="diode" package="SMC" value="MBRS340" x="34" y="38.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.659" y="41.841" size="1.2" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="38.629" y="34.941" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="V1" library="diode" package="SMC" value="" x="4" y="37" smashed="yes" rot="R270">
+<element name="V1" library="diode" package="SMC" value="MBRS340" x="4" y="37" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.659" y="33.041" size="1.2" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-0.629" y="40.459" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="L1" library="WE-PD" package="WE-PD_7332/7345_PLASTIC_BASE" value="" x="35" y="28" smashed="yes" rot="R270">
+<element name="L1" library="WE-PD" package="WE-PD_7332/7345_PLASTIC_BASE" value="WE-PD-7447779122" x="35" y="28" smashed="yes" rot="R270">
 <attribute name="PACKAGE" value="7345" x="35" y="28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="08P2860" x="35" y="28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="7447779122" x="35" y="28" size="1.778" layer="27" rot="R270" display="off"/>
@@ -847,11 +847,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.32" y="32.86" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="30.76" y="21.55" size="1.27" layer="27"/>
 </element>
-<element name="H1" library="OMAT_IC" package="LED3MM" value="" x="12.54" y="12" smashed="yes">
+<element name="H1" library="OMAT_IC" package="LED3MM" value="GRN" x="12.54" y="12" smashed="yes">
 <attribute name="NAME" x="11.645" y="8.381" size="1.2" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="14.445" y="10.349" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="H2" library="OMAT_IC" package="LED3MM" value="" x="17.62" y="12" smashed="yes">
+<element name="H2" library="OMAT_IC" package="LED3MM" value="RED" x="17.62" y="12" smashed="yes">
 <attribute name="NAME" x="16.725" y="8.381" size="1.2" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="19.525" y="10.349" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -859,47 +859,47 @@ design rules under a new name.</description>
 <attribute name="NAME" x="18.9456" y="24.315" size="1.2" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="21.5456" y="21.68" size="0.9" layer="27" font="vector" ratio="10" rot="SR0"/>
 </element>
-<element name="R10" library="OMAT_IC" package="R1206" value="RES1206" x="21.25" y="12.02" smashed="yes" rot="R270">
+<element name="R10" library="OMAT_IC" package="R1206" value="2k15" x="21.25" y="12.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.52" y="13.89" size="1.2" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="18.71" y="13.29" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R9" library="OMAT_IC" package="R1206" value="RES1206" x="8.65" y="11.98" smashed="yes" rot="R270">
+<element name="R9" library="OMAT_IC" package="R1206" value="2k15" x="8.65" y="11.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.12" y="13.25" size="1.2" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="6.11" y="13.25" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R1" library="OMAT_IC" package="R0603" value="RES0603" x="15" y="25" smashed="yes">
+<element name="R1" library="OMAT_IC" package="R0603" value="100k" x="15" y="25" smashed="yes">
 <attribute name="NAME" x="16.565" y="24.435" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.365" y="23.095" size="0.8128" layer="27"/>
 </element>
-<element name="R2" library="OMAT_IC" package="R0603" value="RES0603" x="15" y="27" smashed="yes">
+<element name="R2" library="OMAT_IC" package="R0603" value="100k" x="15" y="27" smashed="yes">
 <attribute name="NAME" x="16.565" y="26.435" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.365" y="25.095" size="0.8128" layer="27"/>
 </element>
-<element name="R11" library="OMAT_IC" package="R1206" value="RES1206" x="35" y="22" smashed="yes" rot="R180">
+<element name="R11" library="OMAT_IC" package="R1206" value="0.1R 1206" x="35" y="22" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.87" y="20.93" size="1.2" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="36.27" y="24.54" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R4" library="OMAT_IC" package="R0603" value="RES0603" x="42.2" y="8" smashed="yes" rot="R180">
+<element name="R4" library="OMAT_IC" package="R0603" value="910R" x="42.2" y="8" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.435" y="6.965" size="1.2" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="42.835" y="9.905" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="R3" library="OMAT_IC" package="R0603" value="RES0603" x="47.4" y="8" smashed="yes" rot="R180">
+<element name="R3" library="OMAT_IC" package="R0603" value="NCP18XH103" x="47.4" y="8" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.635" y="6.965" size="1.2" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="48.035" y="9.905" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="R7" library="OMAT_IC" package="R0603" value="RES0603" x="30" y="19" smashed="yes">
+<element name="R7" library="OMAT_IC" package="R0603" value="309k" x="30" y="19" smashed="yes">
 <attribute name="NAME" x="28.965" y="19.835" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="29.365" y="17.095" size="0.8128" layer="27"/>
 </element>
-<element name="R6" library="OMAT_IC" package="R0603" value="RES0603" x="16" y="21" smashed="yes" rot="R270">
+<element name="R6" library="OMAT_IC" package="R0603" value="1M" x="16" y="21" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.835" y="22.035" size="1.2" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="14.095" y="21.635" size="0.8128" layer="27" rot="R270"/>
 </element>
-<element name="R5" library="OMAT_IC" package="R0603" value="RES0603" x="27" y="21" smashed="yes">
+<element name="R5" library="OMAT_IC" package="R0603" value="174k" x="27" y="21" smashed="yes">
 <attribute name="NAME" x="26.365" y="21.835" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="26.365" y="19.095" size="0.8128" layer="27"/>
 </element>
-<element name="R8" library="OMAT_IC" package="R0603" value="RES0603" x="27" y="19" smashed="yes">
+<element name="R8" library="OMAT_IC" package="R0603" value="100k" x="27" y="19" smashed="yes">
 <attribute name="NAME" x="26.165" y="17.035" size="1.2" layer="25" font="vector"/>
 <attribute name="VALUE" x="26.365" y="17.095" size="0.8128" layer="27"/>
 </element>
@@ -911,19 +911,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.105" y="18.895" size="1.2" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="21.175" y="16.495" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="X2" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE_RUUVULIITIN2" x="12.54" y="4" smashed="yes">
+<element name="X2" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE 282837-2" x="12.54" y="4" smashed="yes">
 <attribute name="NAME" x="14" y="8.48" size="1.2" layer="25" font="vector"/>
 </element>
-<element name="X1" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE_RUUVULIITIN2" x="4" y="27.54" smashed="yes" rot="R270">
+<element name="X1" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE 282837-2" x="4" y="27.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.32" y="24.28" size="1.2" layer="25" font="vector"/>
 </element>
-<element name="X4" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE_RUUVULIITIN2" x="46" y="27.54" smashed="yes" rot="R90">
+<element name="X4" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE 282837-2" x="46" y="27.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.68" y="32" size="1.2" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="X3" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE_RUUVULIITIN2" x="46" y="17.38" smashed="yes" rot="R90">
+<element name="X3" library="OMAT_IC" package="TE_RUUVILIITIN2" value="TE 282837-2" x="46" y="17.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.68" y="20.96" size="1.2" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="U$1" library="dafug" package="DAFUG" value="" x="43.4" y="41"/>
+<element name="U$2" library="dafug" package="DAFUG" value="DAFUG" x="43.4" y="40.6"/>
 </elements>
 <signals>
 <signal name="GND">
